@@ -5,10 +5,11 @@ body {
 	margin: 0 auto;
 }
 
-header, nav {
+header, nav, footer {
 	background-color: #ebebeb;
 	text-align: center;
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	margin-bottom: 15px;
 	margin-top: 15px;
 	position: relative;
@@ -27,44 +28,46 @@ header, nav {
 
 .section {
 	float: left;
-	background-color: #ebebeb;
-	text-align: center;
-	padding: 7px;
-	width: 495px;
-	height: 150px;
-	margin: 0px;
+    background-color: #ebebeb;
+    text-align: center;
+    width: 55%;
+    padding-top: 10px;
 }
 
 #article {
     background-color: #777;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 495px;
-    margin-bottom: 15px;
+    padding: 15px;
+    margin: 15px;
 }
 
 #h1h2h3, #p {
 	background-color: #ebebeb;
-	text-align: center;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	width: auto;
-	margin: 15px;
+    text-align: center;
+    margin: inherit;
+    padding: inherit;
 }
 
 aside {
-	float: left;
-	background-color: green;
-	width: %;
-	height: 150px;
+	float: right;
+	background-color: #ebebeb;
+	width: 43%;
+	height: 242px;
 	text-align: center;
 	padding-top: 0px;
 	padding-bottom: 5px;
+	margin: auto;
 }
 
 footer {
 	clear: left;
 	background-color: #ebebeb;
 	text-align: center;
+	margin-top: 0px;
+    top: 15px;
+}
+
+.spacer {
+	float: right;
+	width: 2%;
 }
