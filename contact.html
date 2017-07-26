@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>About | Phil Tesar</title>
+  <title>Contact | Phil Tesar</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,10 +33,20 @@
               </div>
             
               <div class="panel-body">
-                  <img class="photo img-rounded" src="assets/images/Photo Oct 02, 7 06 02 PM.jpg"/>
-                  <p>My name is Phil Tesar and I am currently the Marketing Director at Woodside Event Center in Broadview Heights, Ohio. I have spent my entire 15-year professional career in the Communications and Marketing field. I have worked primarily in the sports industry, having served in a variety of roles with multiple professional sports teams, minor league teams and national sporting events.</p>
+                  <form id="contact-form">
+              <ul>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="John Smith" required="required"><br>
 
-                  <p>I am married to Natalie and we have one son, Malakai (Kai). Natalie is a 2nd Grade teacher in Avon Lake, and we reside in Bay Village.</p>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required"><br>
+
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" required="required"></textarea>
+                </li>
+              </ul>
+                <button type="button" class="btn btn-primary">Submit</button>
+              </form>
               </div>
           </div>
         </div>
@@ -44,7 +54,7 @@
         <div class="col-xs-12 col-md-4">
           <div class="panel panel-primary">
             <div class="panel-heading">
-              <h1 class="panel-title">Connect With Me</h1>
+              <h3 class="panel-title">Connect With Me</h3>
             </div>
           
             <div class="panel-body">
@@ -70,11 +80,11 @@
       </div>
     </div>
 
-  <footer class="footer">
-      <div class="container-fluid" id="footer">
-        &copy; Copyright 2017 Phil Tesar
-        </div>
-    </footer>
+  <footer>
+    <div class="container">
+      Copyright &copy; 2017 Phil Tesar
+    </div>
+  </footer>
 
 </body>
 
